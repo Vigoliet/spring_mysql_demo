@@ -1,5 +1,7 @@
-package com.example.spring_mysql_demo;
+package com.example.spring_mysql_demo.controllers;
 
+import com.example.spring_mysql_demo.models.User;
+import com.example.spring_mysql_demo.repositories.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
